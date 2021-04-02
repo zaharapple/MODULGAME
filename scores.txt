@@ -1,4 +1,3 @@
-
 № name  scores  time
 1 sasha   21   Wed Mar 31 18:54:06 2021
 2 sss   30   Sat Apr  3 00:10:09 2021
