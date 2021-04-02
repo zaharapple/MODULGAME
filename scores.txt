@@ -1,7 +1,1 @@
-№ name  scores  time
-1 sasha   21   Wed Mar 31 18:54:06 2021
-2 sss   30   Sat Apr  3 00:10:09 2021
-3 aaa   31   Sat Apr  3 00:10:41 2021
-4 sadas   13   Sat Apr  3 00:11:15 2021
-5 sdsadsa   6   Sat Apr  3 00:11:34 2021
-6 dadsa   22   Sat Apr  3 00:12:11 20217
+
