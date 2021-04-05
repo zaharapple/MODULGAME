@@ -14,10 +14,7 @@ LOSS = -1
 WIN = 1
 DRAW = 0
 
-# THIS IS A CHEAT
-CHEAT = 20
-
 # Commands for start game
 ALL_COMMANDS = ['start', 'help', 'exit', 'show scores']
 
-COMMANDS_ATTACKS = [WIZARD, WARRIOR, ROGUE, CHEAT]
+COMMANDS_ATTACKS = [WIZARD, WARRIOR, ROGUE]

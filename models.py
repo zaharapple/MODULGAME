@@ -56,14 +56,9 @@ class Player:
 
         if attack == defense:
             return settings.DRAW
-        elif attack == settings.WIZARD and defense == settings.WARRIOR:
-            return settings.WIN
-        elif attack == settings.WARRIOR and defense == settings.ROGUE:
-            return settings.WIN
-        elif attack == settings.ROGUE and defense == settings.WIZARD:
-            return settings.WIN
-            # This command is cheats! Put command in attack if you wont to win
-        elif attack == settings.CHEAT:
+        elif attack == settings.WIZARD and defense == settings.WARRIOR or \
+                attack == settings.WARRIOR and defense == settings.ROGUE or \
+                attack == settings.ROGUE and defense == settings.WIZARD:
             return settings.WIN
         else:
             return settings.LOSS
