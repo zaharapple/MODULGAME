@@ -3,7 +3,7 @@ Module with all classes game.
 '''
 import settings
 import random
-from exceptions import EnemyDown, GameOver
+from exceptions import EnemyDown, GameOver, Scores
 
 
 class Enemy:
@@ -77,7 +77,8 @@ class Player:
         self.lifes -= 1
 
         if self.lifes == 0:
-            raise GameOver(name=self.name, score=self.score)
+            Scores(name=self.name, score=self.score)
+            raise GameOver()
 
     def attack(self, enemy_obj):
         '''

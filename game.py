@@ -33,8 +33,8 @@ def play():
     level = 1
     player = models.Player(name=name_player)
     enemy = models.Enemy(level=level)
-    cycle = 1
-    while cycle > 0:
+
+    while 1:
         try:
             player.attack(enemy)
             print("Your's Lifes is -->", player.lifes, "Lifes Enemy is -->", enemy.lives)
