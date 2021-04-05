@@ -9,11 +9,6 @@ class GameOver(Exception):
     Exception for end game if player lives become 0
     '''
 
-    # def __init__(self, name, score):
-    #     self.name = name
-    #     self.score = score
-    #     Scores(name, score)
-
 
 class Scores:
     '''
@@ -27,7 +22,6 @@ class Scores:
         self.save_scores(name=name, score=score)
 
     @staticmethod
-
     def save_scores(name, score):
         '''
         This Methode saves result game to file
